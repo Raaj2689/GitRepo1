@@ -1,0 +1,23 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Ignore sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore backup files
+*.backup
+
+# Ignore Terraform directories
+.terraform/
+
+# Ignore binaries
+terraform.exe
+
+# Ignore log files
+*.log
+
+# Ignore IDE files (optional, if you use VSCode)
+.vscode/
